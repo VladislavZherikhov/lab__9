@@ -46,7 +46,7 @@ jobs:
     needs: build
     env:
       MODEL_OUTPUT_DIR: "artifacts/ci"
-      MINIMUM_ACCURACY: "0.90"
+      MINIMUM_ACCURACY: "1.5"
 
     steps:
       - name: Check out repository
